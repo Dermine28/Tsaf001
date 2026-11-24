@@ -1,0 +1,27 @@
+h1{
+    font-family:"Pinyon Script", cursive;;
+    font-size: 36px;
+    /* with variable fonts, you have much more flexibility 
+    with the style of your font*/
+    font-weight: 100;
+/*font- variation-settings is acatch-all for all settings outside of 
+weight */
+
+    font-variation-settings: "wdth" 100;
+
+     /* this is for an animation*/
+     transition: all 3s;
+}
+
+h1:hover{
+    font-weight: 900;
+}
+h3{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+p{
+    font-family: "monoton" , sans-serif;
+    font-weight: 550;
+}
